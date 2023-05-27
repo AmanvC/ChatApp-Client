@@ -21,7 +21,7 @@ import animationData from "../../../animations/typing-animation.json";
 
 import io from "socket.io-client";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://chatapp-api-y9p9.onrender.com/";
 let socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
