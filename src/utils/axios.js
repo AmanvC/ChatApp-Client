@@ -6,7 +6,7 @@ export const makeRequest = () => {
   const token = getItemFromLocalStorage(LOCALSTORAGE_TOKEN_KEY);
 
   return axios.create({
-    baseURL: "http://127.0.0.1:5000/api/v1",
+    baseURL: "https://chatapp-api-y9p9.onrender.com/api/v1",
     headers: {
       authorization: "Bearer " + token,
     },
